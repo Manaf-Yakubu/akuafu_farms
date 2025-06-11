@@ -55,7 +55,7 @@ Project developed as part of a web development initiative to support **local agr
 
 ## 📧 Contact
 
-For inquiries or suggestions, email us at: **[support@akuafofarms.org](mailto:yakubumanaf732hub@gmail.com)**
+For inquiries or suggestions, email us at: **[yakubumanaf732hub@gmail.com](mailto:yakubumanaf732hub@gmail.com)**
 
 ---
 
