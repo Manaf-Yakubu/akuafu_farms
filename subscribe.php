@@ -38,7 +38,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     if ($stmt->execute()) {
         echo "<h2>Thank you for subscribing, " . htmlspecialchars($name) . "!</h2>";
         echo "<p>We will send fresh produce updates to " . htmlspecialchars($email) . ".</p>";
-        echo '<p><a href="Index.html">Back to Home</a></p>';
+        echo '<p><a href="index.html">Back to Home</a></p>';
     } else {
         if ($conn->errno === 1062) {  // Duplicate entry error code
             echo "This email is already subscribed.";
