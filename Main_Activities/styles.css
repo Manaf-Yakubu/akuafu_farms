@@ -1,0 +1,32 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
+.hero-img {
+  height: 70vh;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  bottom: 20%;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+
+.carousel-caption h2 {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.carousel-caption p {
+  font-size: 1.2rem;
+  color: #e6e6e6;
+}
+
+.workshop-card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.2s ease;
+}
+
+footer {
+  font-size: 0.9rem;
+}

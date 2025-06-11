@@ -1,0 +1,108 @@
+<!-- File: index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akuafo Farms - Workshops</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top shadow-sm">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="#">Akuafo Farms</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="../Index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="../Team_fol/team.html">Development Team</a></li>
+          <li class="nav-item"><a class="nav-link" href="Main_Activities.html">Main Activities</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Slider Section -->
+  <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/pic_real.jpg" class="d-block w-100 hero-img" alt="Empowering Farmers">
+        <div class="carousel-caption animate__animated animate__fadeInDown">
+          <h2>Empowering Farmers</h2>
+          <p>Hands-on training to boost your skills</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/pic5.webp" class="d-block w-100 hero-img" alt="Modern Techniques">
+        <div class="carousel-caption animate__animated animate__fadeInDown">
+          <h2>Modern Techniques</h2>
+          <p>Sustainable farming practices for a better future</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/pic4.jpeg" class="d-block w-100 hero-img" alt="Community Growth">
+        <div class="carousel-caption animate__animated animate__fadeInDown">
+          <h2>Community Growth</h2>
+          <p>Learn and network with other local farmers</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <!-- Workshop Section -->
+  <section class="container py-5">
+    <h2 class="text-center mb-4 animate__animated animate__fadeInUp">Upcoming Workshops</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 shadow workshop-card">
+          <img src="images/pic5.webp" class="card-img-top" alt="Organic Farming">
+          <div class="card-body">
+            <h5 class="card-title">Organic Farming</h5>
+            <p class="card-text">Learn to cultivate crops without synthetic chemicals.</p>
+            <a href="../Index.html#subscribe" class="btn btn-success">Register</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow workshop-card">
+          <img src="images/pic_real.jpg" class="card-img-top" alt="Irrigation Techniques">
+          <div class="card-body">
+            <h5 class="card-title">Irrigation Techniques</h5>
+            <p class="card-text">Master efficient water management systems.</p>
+            <a href="../Index.html#subscribe" class="btn btn-success">Register</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow workshop-card">
+          <img src="images/pic3.jpeg" class="card-img-top" alt="Agri-Business">
+          <div class="card-body">
+            <h5 class="card-title">Agri-Business</h5>
+            <p class="card-text">Learn how to build and manage a farm-based business.</p>
+            <a href="../Index.html#subscribe" class="btn btn-success">Register</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-success text-white text-center py-3 mt-5">
+    <p class="mb-0">&copy; 2025 Akuafo Farms. All rights reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

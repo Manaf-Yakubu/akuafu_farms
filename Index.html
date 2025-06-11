@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akuafo Farms - Home</title>
+  <link rel="stylesheet" href="Index.css" />
+  <link rel="icon" href="assets/logo.png" type="image/png">
+</head>
+<body>
+  <header class="sticky">
+    <div class="logo">
+      <img src="logo.jpg" alt="Sankofa Farm Logo">
+      <h1>Akuafo Farms
+</h1>
+    </div>
+    <nav>
+      <a href="Index.html">Home</a>
+      <a href="Team_fol/team.html">Development Team</a>
+      <a href="Main_Activities/Main_Activities.html">Main Activities</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <img src="Images/pic_real.jpg" alt="Farm" class="hero-img">
+      <div class="hero-text">
+        <h2>Fresh From Our Soil to Your Table</h2>
+        <p>We bring you nature's best—organic, fresh, and straight from our farm every week.</p><br>
+        <a href="#subscribe" class="cta-button">Subscribe Now</a>
+      </div>
+    </section>
+
+    <section class="features">
+      <h3>Why Choose Akuafo Farms?</h3>
+      <div class="features-grid">
+        <div class="feature-card">
+          <img src="Images/pic4.jpeg" alt="Organic">
+          <h4>100% Organic</h4>
+          <p>All our produce is grown using organic farming practices.</p>
+        </div>
+        <div class="feature-card">
+          <img src="Images/pic2.jpg" alt="Delivery">
+          <h4>Timely Delivery</h4>
+          <p>Get your fresh produce delivered to your doorstep weekly.</p>
+        </div>
+        <div class="feature-card">
+          <img src="Images/pic3.jpeg" alt="Community">
+          <h4>Community Driven</h4>
+          <p>Supporting smallholder farmers and sustainable agriculture.</p>
+        </div>
+      </div>
+    </section>
+    <section class="subscribe" id="subscribe">
+      <h3>Subscribe to Our Weekly Newsletter</h3>
+<form action="subscribe.php" method="POST">
+  <input type="text" name="name" placeholder="Your Name" required />
+  <input type="email" name="email" placeholder="Your Email" required />
+  <input type="text" name="location" placeholder="Location" required />
+  <input type="text" name="preferred_produce" placeholder="Preferred Produce" required />
+  <select name="frequency" required>
+    <option value="">Select Frequency</option>
+    <option value="Daily">Daily</option>
+    <option value="Weekly">Weekly</option>
+    <option value="Monthly">Monthly</option>
+  </select>
+  <button type="submit">Subscribe</button>
+</form>
+    </section>
+    <section class="gallery">
+      <h3>Farm Gallery</h3>
+      <div class="gallery-grid">
+        <img src="Images/pic5.webp" alt="Harvesting">
+        <img src="Images/pic3.jpeg" alt="Vegetables">
+        <img src="Images/pic2.jpg" alt="Farmers">
+        <img src="Images/pic_real.jpg" alt="Farm Animals">
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <h3>What Our Subscribers Say</h3>
+      <div class="testimonial-slider">
+        <blockquote>
+          "Best farm produce I’ve had. I love the fresh taste and the friendly service!"
+          <footer>- Abena, Accra</footer>
+        </blockquote>
+        <blockquote>
+          "Always on time and super fresh. The kale is my favorite!"
+          <footer>- Kofi, Kumasi</footer>
+        </blockquote>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-columns">
+      <div>
+        <h4>About Akuafo Farms</h4>
+        <p>We are a community-based farm committed to bringing sustainable food to Ghanaian homes.</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Email: Akuafo Farms.com<br>Phone: +233 201436945</p>
+      </div>
+      <div>
+        <h4>Follow Us</h4>
+        <p>
+          <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
+        </p>
+      </div>
+    </div>
+    <p class="copyright">&copy; 2025 Akuafo Farms. All rights reserved.</p>
+  </footer>
+
+  <script src="Index.js"></script>
+</body>
+</html>
